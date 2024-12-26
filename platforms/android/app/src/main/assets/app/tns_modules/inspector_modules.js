@@ -1,0 +1,1 @@
+"use strict";(()=>{var e={id:354,ids:[354]};e.modules={3795:e=>{e.exports=require("~/package.json")}};var r=require("../runtime.js");r.C(e);var s=r.X(0,[502],(()=>{return e=5080,r(r.s=e);var e})),u=e;for(var a in s)u[a]=s[a];s.__esModule&&Object.defineProperty(u,"__esModule",{value:!0})})();
