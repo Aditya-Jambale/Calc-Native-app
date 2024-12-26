@@ -19,6 +19,9 @@ A simple React Native calculator app that performs basic arithmetic operations w
 
 ---
 
+![Calculator Screenshot](assets/screenshot.jpg)
+
+
 ## Installation
 
 1. Clone the repository:
