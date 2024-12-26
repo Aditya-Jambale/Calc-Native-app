@@ -1,7 +1,6 @@
+# NativeScript Calculator
 
-# React Native Calculator
-
-A simple React Native calculator app that performs basic arithmetic operations with a clean and user-friendly design. The app features a visually appealing display where the current operation is blurred, and the result is shown in a bold, prominent style. The app includes a credit line at the bottom that reads "Calc by Aditya Jambale."
+A simple NativeScript calculator app that performs basic arithmetic operations with a clean and user-friendly design. The app features a visually appealing display where the current operation is blurred, and the result is shown in a bold, prominent style. The app includes a credit line at the bottom that reads "Calc by Aditya Jambale."
 
 ---
 
@@ -15,8 +14,8 @@ A simple React Native calculator app that performs basic arithmetic operations w
 ---
 
 ## Technologies Used
-- **React Native**: For building the cross-platform mobile application.
-- **JavaScript**: Core programming language for app logic.
+- **NativeScript**: For building the cross-platform mobile application.
+- **JavaScript/TypeScript**: Core programming languages for app logic.
 
 ---
 
@@ -24,8 +23,8 @@ A simple React Native calculator app that performs basic arithmetic operations w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-native-calculator.git
-   cd react-native-calculator
+   git clone https://github.com/Aditya-Jambale/Calc-Native-app.git
+   cd nativescript-calculator
    ```
 
 2. Install dependencies:
@@ -33,41 +32,31 @@ A simple React Native calculator app that performs basic arithmetic operations w
    npm install
    ```
 
-3. Start the Metro server:
-   ```bash
-   npx react-native start
-   ```
-
-4. Run the app on a connected Android or iOS device:
+3. Run the app on a connected Android or iOS device:
    - **For Android**:
      ```bash
-     npx react-native run-android
+     ns run android
      ```
    - **For iOS** (requires macOS and Xcode):
      ```bash
-     npx react-native run-ios
+     ns run ios
      ```
 
 ---
 
 ## Building the APK
 
-1. Navigate to the `android` directory:
+1. Build the release APK:
    ```bash
-   cd android
+   ns build android --release
    ```
 
-2. Build the release APK:
-   ```bash
-   ./gradlew assembleRelease
+2. Find the generated APK in:
+   ```
+   platforms/android/app/build/outputs/apk/release/app-release.apk
    ```
 
-3. Find the generated APK in:
-   ```
-   android/app/build/outputs/apk/release/app-release.apk
-   ```
-
-4. Transfer the APK to your Android device to test the app.
+3. Transfer the APK to your Android device to test the app.
 
 ---
 
