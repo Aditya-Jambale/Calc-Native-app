@@ -23,5 +23,5 @@ A simple React Native calculator app that performs basic arithmetic operations w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-native-calculator.git
-   cd react-native-calculator
+   git clone https://github.com/Aditya-Jambale/Calc-Native-app.git
+   cd Calc-Native-app
